@@ -1,0 +1,91 @@
+/* General styles */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    padding: 10px;
+  }
+  .description,
+  .title{
+    text-align: center;
+  }
+  
+  /* Team section */
+
+  .team-container{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex-basis: auto;
+  }
+  .row{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .col{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  span {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Media queries */
+  
+  @media screen and (max-width: 1100px) {
+    .card {
+      flex-basis: 100%;
+    }
+  }
